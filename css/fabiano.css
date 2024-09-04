@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../img/slidebg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 720px;
+    padding-top: 15px;
+}
+nav{
+    background-color: black;
+    min-width: 1200px;
+    max-width: 1400px;
+    height: 125px;
+    margin: 0 auto 0 auto;
+}
+nav #logo{
+    margin: 23px;
+    float: left;
+}
+nav #logo img{
+    height: 75px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+nav ul li{
+    color: aliceblue;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+ nav ul li a{
+    text-decoration: line-through;
+ }
+ nav #menu_principal{
+    float: right;
+ }
+ #menu_principal li span{
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    color: rgb(134, 134, 134);
+    margin-right: 3px;
+    margin-top: 5px;
+ }
+ #menu_principal li a{
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 1s;
+    text-decoration: line-through;
+ }
+ section{
+    background-image: url(../img/divider-dark.png);
+    width: 100;
+    height: 500px;
+    background-repeat: repeat-x;
+ }
+/*---------------trabalhos---------------*/
+#trabalhos{
+    background-color: black;
+}

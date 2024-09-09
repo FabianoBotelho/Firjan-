@@ -70,10 +70,8 @@ nav ul li a {
     text-decoration: line-through;
 
 }
-section{
+.regua{
     background-image: url(../img/divider-dark.png);
-    width: 100%;
-    height: 500px;
     background-repeat: repeat-x;
     padding-top: 100px;
 }
@@ -107,35 +105,64 @@ section{
     line-height: 40px;
     font-family: 'Roboto Slab', serif;
     text-align: center;
-    margin-left: 90px;
+    margin: 0;
+    margin-left: 95px;
+    margin-top: 40px;
 }
-.txt h4{
-    font-size: 24px;
+.trabalhos{
+    margin-top: 110px;
+}
+
+.cabecalho{
+min-width: 120px;
+max-width: 1400px;
+margin: 0 auto;
+text-align: center;
+}
+.trabalhos .cabecalho h4 span{
+    color: #e7a920;
+    text-transform: uppercase;
+    letter-spacing: 11px;
     font-weight: 300;
-    width: 80%;
-    display: inline-block;
-    line-height: 40px;
-    font-family: 'Montserrat', serif; 
-    text-align: center;
-    margin-left: 0px;
-    color: rgb(231, 169, 32);
-    text-transform: uppercase; 
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
 }
-.txt h1{
+.trabalhos .cabecalho h4 b{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 85px;
+    text-transform: uppercase;
+    color: #000;
+    font-style: italic;
+}
+.trabalhos .cabecalho p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    font-weight: 350;
-    width: 80%;
-    display: inline-block;
-    line-height: 40px;
-    font-family: 'Roboto Slab', serif;
-    text-align: center;
-    margin-left: 90px;
-    color: black;
-    height: 29px;
+    margin: 12px 0 0 0;
 }
-
-
+.trabalho .mosaico{
+    min-width: 1200px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.trabalhos .mosaico .item{
+    height: 470px;
+    width: 570px;
+    background-image: url(../img/project-1.jpg);
+    background-size: contain;
+    background-position: center;
+}
+.trabalhos .mosaico .item:hover{
+    background-size: 110%;
+    background-position: center;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+    position: absolute;
+}
     /*-------------------------------------trabalhos-----------------------------------------*/
 #trabalho {
-    background-color: black;
+    background-color: blue;
 }

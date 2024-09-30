@@ -1,94 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-      <meta charset="UTF-8">
-      <title>Parallelo</title> 
-      <link rel="stylesheet" href="css/fabiano.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o CSS -->
 </head>
 <body>
-    <header>
-            <nav>
-                <div id=logo>
-                 <a href="index.html">
-                  <img src="img/logo-white.png">
-                 </a> 
+
+    <div class="container">
+        <h2>Formulário de Cadastro</h2>
+        <form action="processa_form.php" method="POST">
+            <div class="form-group">
+                <label for="id">ID:</label>
+                <input type="text" id="id" name="id" required>
             </div>
-            <ul>
-                <li>
-                    <span>01.</span>
-                    <a href="index.html" class="tab" data-number="1">
-                         Home
-                    </a>
-                 </li>
-                <li>
-                    <span>02.</span>
-                    <a href="trabalhos.html">
-                        Trabalhos
-                    </a>
-                </li>
-                <li>
-                    <span>03.</span>
-                    <a href="#">Escaneamento</a>
-                </li>
-                <li>
-                    <span>04.</span>
-                    <a href="#">Sobre</a>
-                </li>
-                <li>
-                    <span>05.</span>
-                    <a href="#">Lançamentos </a>
-                </li> 
-                <li>
-                    <span>06.</span>
-                    <a href="#">Contatos</a>
-                </li>    
-            </ul>
-              </nav>
-        </header>
-<section class="regua">
-    <div class="icons">
-      <div class="icons">
-        <img src="img/school-material.png">
-    </div>
-      <div class="icons">
-        <img src="img/squareeee.png">
-    </div>
-      <div class="icons">
-        <img src="img/copoo.png">
-    </div>
-</div>
-    <div class="txt">
-    <h6>
-        "A arquitetura é a arte que determina a identidade do nosso tempo e melhora a vida das pessoas." <i>Santiago Calatrava</i>
-    </h6>
-     </div>
-</section>
-<section class="trabalhos">
-    <div class="cabecalho">
-        <h4>
-            <span>
-                Nossos
-            </span>
-            <br>
-            <b>
-                Projetos
-            </b>
-        </h4>
-        <img src="img/black-wave.png">
-        <p>
-            Concebemos ideias e concretizamos sonhos.
-        </p>
-    </img>
-    <div class="mosaico">
-        <div class="item">
-            <div class="plus">
-                <img src="img/plus.png">
+
+            <div class="form-group">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
             </div>
-        </div>
+
+            <div class="form-group">
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" min="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="curso">Curso:</label>
+                <input type="text" id="curso" name="curso" required>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Cadastrar</button>
+            </div>
+        </form>
     </div>
-    <div class="botao">
-        
-    </div>
-  </section>
+
 </body>
 </html>
